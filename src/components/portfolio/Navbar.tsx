@@ -29,7 +29,7 @@ export function Navbar() {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         <a href="#" className="text-xl font-bold tracking-tight text-primary">
-          Your Name
+          Mostima
         </a>
 
         {/* Desktop Navigation */}

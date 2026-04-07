@@ -1,4 +1,5 @@
 import HomePage from './pages/HomePage';
+import EmailPage from './pages/EmailPage';
 import type { ReactNode } from 'react';
 
 export interface RouteConfig {
@@ -15,6 +16,12 @@ const routes: RouteConfig[] = [
     name: 'Home',
     path: '/',
     element: <HomePage />,
+    public: true,
+  },
+  {
+    name: 'Email',
+    path: '/email',
+    element: <EmailPage />,
     public: true,
   }
 ];

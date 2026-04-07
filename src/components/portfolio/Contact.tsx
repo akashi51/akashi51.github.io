@@ -1,10 +1,9 @@
-import { Github, Mail, Linkedin } from 'lucide-react';
+import { Github, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const CONTACT_INFO = [
-  { icon: Github, label: 'GitHub', href: 'https://github.com' },
-  { icon: Mail, label: 'Email', href: 'mailto:yourname@example.com' },
-  { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com' },
+  { icon: Github, label: 'GitHub', href: 'https://github.com/akashi51' },
+  { icon: Mail, label: 'Email', href: '/email' },
 ];
 
 export function Contact() {
@@ -41,7 +40,7 @@ export function Contact() {
 
         <div className="pt-12 border-t border-border flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-sm text-muted-foreground tracking-tight">
-            © 2026 Your Name. All rights reserved.
+            © 2026 Mostima. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-primary transition-colors h-auto p-0" asChild>

@@ -12,7 +12,7 @@ export function Hero() {
         <div className="flex flex-col space-y-8 text-center md:text-left">
           <div className="space-y-4">
             <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-foreground">
-              Hi, I'm <span className="text-primary">Your Name</span> 👋
+              Hi, I'm <span className="text-primary">Mostima</span> 👋
             </h1>
             <p className="text-xl md:text-2xl font-semibold text-muted-foreground">
               Full Stack Developer / Open Source Enthusiast
@@ -40,7 +40,11 @@ export function Hero() {
             {/* Avatar Circle */}
             <div className="gradient-border p-1">
               <div className="w-[160px] h-[160px] md:w-[240px] md:h-[240px] rounded-full bg-card flex items-center justify-center overflow-hidden border border-border">
-                <User className="w-1/2 h-1/2 text-muted-foreground/30" strokeWidth={1} />
+                <img 
+                  src="https://miaoda-conversation-file.cdn.bcebos.com/user-ai6dhrnwdmo0/conv-astop2qifnr4/20260407/file-asviiyqws83k.jpg" 
+                  alt="Mostima Avatar"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
             
